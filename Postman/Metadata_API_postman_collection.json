@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "815df57b-a574-4042-beb9-2b10df4d8144",
+		"name": "Homebrew",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "My REST service",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/formula?name=wget",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"formula"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "wget"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Homebrew Metadata service",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://formulae.brew.sh/api/formula/a2ps.json",
+					"protocol": "https",
+					"host": [
+						"formulae",
+						"brew",
+						"sh"
+					],
+					"path": [
+						"api",
+						"formula",
+						"a2ps.json"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

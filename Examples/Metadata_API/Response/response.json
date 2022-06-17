@@ -1,0 +1,13 @@
+{
+  "desc": "Internet file retriever",
+  "versions": {
+    "stable": "1.21.3",
+    "head": "HEAD",
+    "bottle": "true"
+  },
+  "dependencies": [
+    "libidn2",
+    "openssl@1.1"
+  ],
+  "generated_date": "2022-06-17"
+}
